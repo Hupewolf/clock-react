@@ -17,12 +17,12 @@ function Clock() {
     if ( gio >= 6 && gio <= 17) {
         isDay = true;
         document.documentElement.style.setProperty('--text-color', '#fffdae');
-        document.documentElement.style.setProperty('--shadow-text-color', 'rgba(221, 63, 15,0.6)');
+        document.documentElement.style.setProperty('--shadow-text-color', 'rgba(221, 63, 15,0.8)');
     }
     else {
         isDay = false;
         document.documentElement.style.setProperty('--text-color', '#8bf7ff');
-        document.documentElement.style.setProperty('--shadow-text-color', 'rgba(0,110,255,0.6)');
+        document.documentElement.style.setProperty('--shadow-text-color', 'rgba(0,110,255,0.8)');
     }
 
     let buoi;

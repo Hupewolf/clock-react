@@ -12,7 +12,7 @@
 
 :root {
   --text-color: #8bf7ff;
-  --shadow-text-color: rgba(0,110,255,0.6);
+  --shadow-text-color: rgba(0,110,255,0.8);
 }
 
 * {
