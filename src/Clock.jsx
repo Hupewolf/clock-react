@@ -56,6 +56,7 @@ function Clock() {
     return (
         <div className="outer-clock">
             <div className="clock">
+                <div className="shadow"></div>
                 <div className="left-left">
                     <Bell />
                     <div>
